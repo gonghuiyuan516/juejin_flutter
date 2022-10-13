@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.vip.juejin_flutter.juejin_flutter">
+    package="com.vip.juejin.flutter.flutter_juejin">
    <application
-        android:label="juejin_flutter"
+        android:label="flutter_juejin"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

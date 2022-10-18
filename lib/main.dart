@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_juejin/r.g.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,6 +10,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var normalImageWidget = Image(
+      width: 200,
+      height: 120,
+      image: R.image.img_vip_tag_webp(),
+    );
+
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(

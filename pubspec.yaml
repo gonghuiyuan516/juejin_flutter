@@ -5,10 +5,11 @@ version: 1.0.0+1
 environment:
   sdk: '>=2.15.0 <3.0.0'
 dependencies:
+  get: 4.6.1
   flutter:
     sdk: flutter
   bruno: 3.0.0
-  flutter_bloc: ^8.0.0
+
 
 dev_dependencies:
   flutter_test:
@@ -17,10 +18,11 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-  - assets/images/bg_book_free.webp
+    - assets/images/bg_book_free.webp
 flr:
   core_version: 3.2.0
   dartfmt_line_length: 80
   assets:
-  - /assets/images
-  fonts: []
+    - /assets/images/
+    - /assets/images/tab_home_normal.webp
+  fonts: [ ]

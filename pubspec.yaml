@@ -9,6 +9,7 @@ dependencies:
   flutter:
     sdk: flutter
   bruno: 3.0.0
+  flutter_displaymode: ^0.4.1
 
 
 dev_dependencies:
@@ -18,11 +19,11 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/images/bg_book_free.webp
+    - assets/images/
+    -  - assets/images/ic_vip_welfare_exchange_top_image.webp
 flr:
   core_version: 3.2.0
   dartfmt_line_length: 80
   assets:
-    - /assets/images/
-    - /assets/images/tab_home_normal.webp
+
   fonts: [ ]
